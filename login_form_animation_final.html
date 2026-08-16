@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Login Form Animation</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#202b31;color:white;font-family:Arial,sans-serif;min-height:100vh}
+.page{max-width:760px;margin:auto;padding:58px 28px 80px;text-align:center}
+h1{font-size:42px;margin:0 0 68px;font-weight:800}
+h1 span{color:#b8f25b}.white{color:#fff!important}
+.demo{height:385px;background:#f6a36f;border:2px solid #fff;border-radius:5px;margin-bottom:68px;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.login{width:300px;padding:25px;border-radius:18px;background:#ffffff2b;border:1px solid #ffffff88;backdrop-filter:blur(8px);animation:pop 3s infinite}
+.login h2{margin:0 0 18px}.input{height:42px;background:#fff;border-radius:9px;margin:10px 0}.button{height:42px;background:#202b31;border-radius:9px;margin-top:14px}
+@keyframes pop{0%,15%{opacity:0;transform:scale(.65)}35%,70%{opacity:1;transform:scale(1)}90%,100%{opacity:0;transform:scale(.85)}}
+.code{width:min(100%,470px);margin:auto;text-align:left;background:#30323d;border:2px solid white;border-radius:5px;padding:15px 15px 24px;min-height:440px}
+.dots{display:flex;gap:9px;margin-bottom:14px}.dot{width:14px;height:14px;border-radius:50%}
+.r{background:#ff665c}.y{background:#ffbd44}.g{background:#27c93f}
+pre{margin:0;white-space:pre-wrap;font:13px/1.55 "Courier New",monospace;color:#eee}
+@media(max-width:520px){.page{padding:52px 22px 70px}h1{font-size:34px;margin-bottom:48px}.demo{height:330px;margin-bottom:60px}pre{font-size:11px}}
+</style>
+</head>
+<body>
+<div class="page">
+<h1><span>Login Form</span> <b class="white">Animation</b></h1>
+<div class="demo">
+  <div class="login">
+    <h2>Login</h2>
+    <div class="input"></div><div class="input"></div><div class="button"></div>
+  </div>
+</div>
+<div class="code">
+  <div class="dots"><i class="dot r"></i><i class="dot y"></i><i class="dot g"></i></div>
+<pre>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width,
+  initial-scale=1.0"&gt;
+  &lt;title&gt;Animated Login Form&lt;/title&gt;
+  &lt;style&gt;
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+  }
+  div {
+    height: 200px;
+  }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;</pre>
+</div>
+</div>
+</body>
+</html>
